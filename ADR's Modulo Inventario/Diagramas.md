@@ -10,9 +10,10 @@
 - **Capa de Dominio (Core):** Contiene las Entidades puras (`Product`, `InventoryStock`) y las interfaces de los repositorios. No tiene dependencias externas.
     
 - **Capa de Infraestructura:** Implementa los repositorios utilizando Entity Framework Core 10 y maneja la comunicación directa con PostgreSQL.
-![[diag_serv.png]]
+
+![Diagrama de Arquitectura](./Assets/diag_serv.png)
 
 
 ## Diagrama de Base de datos
 
-![[diag_bdd.png]]
+![Diagrama de Base de Datos](./Assets/diag_bdd.png)
